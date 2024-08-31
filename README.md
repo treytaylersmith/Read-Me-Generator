@@ -7,29 +7,33 @@ Generates a README.md for you
 
 ## Table of Contents
 
-- [Title](#title)
 - [Description](#description)
-- [Installation](#Installation)
-- [License](#License)
-- [Usage](#Usage)
-- [Questions](#Questions)
-- [Username](#username)
+- [Installation](#installation)
+- [License](#license)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Questions](#questions)
 
 
 ## Installation
 
 Download and run npm install to install package.json
 
-## Usage
-
-Once downloaded, navigate to directory and type 'node index.js'. Follow instructions and a README.md file will be generated in /output/
-
 ## License
 
 [MIT License](https://opensource.org/license/mit)
 
-## Credits
-SMU Coding bootcamp via: [potential-enigma](https://github.com/coding-boot-camp/potential-enigma)
+## Usage
+
+Once downloaded, navigate to directory and type 'node index.js'. Follow instructions and a README.md file will be generated in /output/
+
+## Contribution
+
+n/a
+
+## Testing
+n/a
 
 ## Questions
 

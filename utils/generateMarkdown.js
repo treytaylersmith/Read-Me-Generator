@@ -51,11 +51,11 @@ function renderTableOfContents(data){
   let dataStrings = Object.entries(data);
   for(section of dataStrings){
     console.log(section);
-    if(section[1] === "" || section[1] === "username"){
+    if(section[1] === "" || section[0] === "username" ||  section[0] === "title"){
 
     }
     else{
-     contents+= `- [${section[0].charAt(0).toUpperCase()+ section[0].slice(1)}](#${section[0]})\n`
+     contents+= `- [${section[0].charAt(0).toUpperCase()+ section[0].slice(1)}](#${section[0].toLowerCase()})\n`
    }
   }
   return contents;
@@ -64,16 +64,16 @@ function renderTableOfContents(data){
 
 function generateMarkdown(data) {
   if(data.Installation === ""){
-    data.Installation === "n/a"
+    data.Installation = "n/a"
   }
   if(data.Usage === ""){
-    data.Usage === "n/a"
+    data.Usage = "n/a"
   }
   if(data.Contribution === ""){
-    data.Contribution === "n/a"
+    data.Contribution = "n/a"
   }
   if(data.Test === ""){
-    data.Test === "n/a"
+    data.Test = "n/a"
   }
   return `# ${data.title}
 ${renderLicenseBadge(data.License)}\n
@@ -83,10 +83,14 @@ ${data.description}\n
 ${renderTableOfContents(data)}\n
 ## Installation\n
 ${data.Installation}\n
-## Usage\n
-${data.Usage}\n
 ## License\n
 ${renderLicenseSection(data.License)}\n
+## Usage\n
+${data.Usage}\n
+## Contribution\n
+${data.Contribution}\n
+## Testing
+${data.Test}\n
 ## Questions\n
 My GitHub: [${data.username}](htthttps://github.com/${data.username})\n
 Email me with any additional questions at ${data.Questions}\n
