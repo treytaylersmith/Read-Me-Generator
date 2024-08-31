@@ -28,9 +28,6 @@ Once downloaded, navigate to directory and type 'node index.js'. Follow instruct
 
 [MIT License](https://opensource.org/license/mit)
 
-## Credits
-SMU Coding bootcamp via: [potential-enigma](https://github.com/coding-boot-camp/potential-enigma)
-
 ## Questions
 
 My GitHub: [treytaylersmith](htthttps://github.com/treytaylersmith)
