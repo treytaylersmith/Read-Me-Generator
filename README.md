@@ -35,6 +35,10 @@ n/a
 ## Testing
 n/a
 
+## Credits
+
+SMU Coding bootcamp via: [potential-enigma](https://github.com/coding-boot-camp/potential-enigma)
+
 ## Questions
 
 My GitHub: [treytaylersmith](htthttps://github.com/treytaylersmith)
