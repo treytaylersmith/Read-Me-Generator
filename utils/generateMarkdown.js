@@ -50,7 +50,7 @@ function renderTableOfContents(data){
   let contents = "";
   let dataStrings = Object.entries(data);
   for(section of dataStrings){
-    console.log(section);
+    
     if(section[1] === "" || section[0] === "username" ||  section[0] === "title"){
 
     }
